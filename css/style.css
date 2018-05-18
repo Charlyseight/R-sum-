@@ -1,0 +1,684 @@
+@font-face{
+    font-family:"gteesti";
+    src:url("../font/GT-Eesti-Pro-Display-Trial-Regular.otf"); format:("otf");
+}
+
+body{
+	font-family: "gteesti";
+    font-size: 62.5%;
+    background: #f2f2f2;
+    color: #333;
+}
+
+div.page{
+    max-width: 940px;
+    padding: 0em 3.40425532%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1.6em;
+    border-right: 0.5px solid rgba(0,0,0,0.3);
+    border-left: 0.5px solid rgba(0,0,0,0.3);
+}
+
+/* HEADER ------------------------------------------------- */
+
+header{
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    display: flex;
+}
+
+header h1{
+    display: block;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.research ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+.research li:first-child{
+    flex:2;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #054752;
+}
+
+.logo img{
+    width: 7%;
+    min-width: 20px;
+    height: auto;
+    position: relative;
+    bottom:5px;
+}
+
+.rechercher, .send{
+    box-sizing: border-box;
+    padding: 0.5em 2% 0.5em 1.125%;
+    height: 36px;
+    line-height: 1.25;
+    border-radius: 15px;    
+    background-color: rgb(69,176,245);
+    text-align: center;
+}
+
+li.send{
+    margin: 0em 0% 0em 2.5531915%;
+}
+
+li.rechercher:hover,li.send:hover{
+    background-color: rgb(56,143,193);
+}
+
+li.rechercher a, li.send a{
+    color: white;
+    margin:0 auto;
+    text-decoration: none;
+}
+
+.fa-search{
+    color: white;
+    padding:0em 0.5em 0em 0.3em;
+}
+
+.fa-envelope{
+    color: white;
+    padding:0em 0.5em 0em 0.3em;
+}
+
+a.imgprofil img{
+    width: 40px;
+    height: 40px;
+    margin-left: 4.2553191%;
+}
+
+.research li:last-child{
+    display: flex;
+    align-items: center;
+    flex:2;
+    justify-content: flex-end;
+}
+
+a.profil{
+    text-decoration: none;
+    color:rgb(69,176,245);
+    font-weight: bold;
+    margin-right: 5%;
+    
+}
+
+button{
+     background-image: url(../img/burger.png);
+     width: 30px;
+     height: 20px;
+     border-radius:none;
+     box-shadow: none;
+     border:none;
+     background-color: white;
+     display: none;
+     margin-left: 1.5em;
+}
+
+/* NAV PRINCIPAL --------------------------------------------------------------- */
+
+nav h2{
+    display: block;
+    font-size: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul{
+    background-color: #f9f9f9;
+    padding: 11px 0px;
+    //width: 96.382979%;
+    text-align: left;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.05) inset, -1px -1px 5px rgba(0,0,0,0.1) inset;
+    margin-bottom: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(69,176,245);
+    padding: 8px 14px;
+    font-size: 14px;
+    letter-spacing: .2px;
+    border: 1px solid transparent;
+}
+
+nav li a:hover, a[data-active="true"]{
+    color: rgb(112,140,145);
+    border-bottom: none;
+    transform: scale(1.1);
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-top:1px solid black;
+    border-left: 1px solid black;
+    border-right:1px solid black;;
+    border-radius: 5px 5px 0px 0px;
+    border-color: rgb(240,240,240);
+}
+
+
+[target="true"]+ul{
+    border:0.5px solid rgb(210,210,210);
+}
+
+
+
+
+/* CONTACT ------------------------------------------------------------------------ */
+
+.contact{
+    background-color: rgb(247,247,247);
+    border-radius: 2px 2px 2px 2px;
+    margin-bottom: 17px;
+    //width: 96.382979%;
+    height: 77px;
+    padding : 17px;
+    position: relative;
+    padding-bottom:30px;
+}
+
+.title{
+    display: flex;
+}
+
+.title a{
+    order: -1;
+    width: 80px;
+    height: 80px;
+}
+
+.title img{
+    width: 80px;
+    height: 80px;
+}
+
+.title h2{
+    font-size: 1.3em;
+    color: #4A463E;
+    margin-top: 0.3em;
+    margin-left: 0.2em;
+}
+
+.contact ul{
+     position: absolute;
+     left: 105px;
+     bottom: 12px;
+}
+
+.contact ul li{
+    font-size: 13px;
+    color: rgb(69,176,245);
+    margin-bottom: 0.5em;
+}
+
+.contact ul li a{
+    font-size: 13px;
+    color: rgb(69,176,245);
+    margin-bottom: 0.5em;
+}
+
+.contact ul .visit a{
+    text-decoration: none;
+}
+
+.contact .download{
+    color:grey;
+    padding-left:.5em;
+}
+
+/* CONTENU ----------------------------------------------------------*/
+
+.contenu{
+    display: flex;
+}
+
+
+/* ASIDE ------------------------------------------------------------- */
+
+h1.hidden{
+    display: block;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.aside{
+    width: 15em;
+    border: 1px solid rgb(230,230,230);
+    padding: 1.5em;
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 1em;
+}
+
+.aside h2{
+    font-size: 16px;
+    border-bottom: 1px solid rgb(230,230,230);
+    padding-bottom: 1em;
+    margin: 0em 1.5em 1em 0em;
+    color: rgb(27,71,82);
+
+}
+.aside li{
+    display: block;
+    font-size: 14px;
+    color: rgb(108,210,103);
+    padding: 0.5em;
+    margin: 0.3em;
+}
+
+.coordonnes li:last-child a{
+    color: rgb(108,210,103);
+}
+
+.fa-check-circle-o {
+    color: rgb(108,210,103);
+    margin-right: 0.3em;
+}
+
+.aside a{
+    text-decoration: none;
+    color: rgb(48,155,108);
+}
+
+.aside ul{
+    margin-bottom: 1.5em;
+}
+
+#contact :target{
+    background-color: black;
+}
+
+.mail{
+    padding-left: 1.3em;
+}
+
+
+/* ETUDES ------------------------------------------ */
+
+.etudes h2, .Stages h2, .Jobs h2{
+    color: rgb(27,71,82);
+    font-size: 22px;
+    line-height: 28px;
+    border-bottom: 1px solid rgb(230,230,230);
+    padding-bottom: 0.6em;
+    margin:0.5em 0em 0.8em 1em;
+}
+
+.fa-graduation-cap{
+    color: rgb(27,71,82);
+}
+
+.fa-handshake-o{
+    color: rgb(27,71,82);
+}
+
+.fa-briefcase{
+    color: rgb(27,71,82);
+}
+
+.etudes ul li span, .Stages ul li span, .Jobs ul li span{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.etudes ul li, .Stages ul li, .Jobs ul li{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.etudes ul li:last-child, .Stages ul li:last-child, .Jobs ul li:last-child{
+    margin-bottom: 2.5em;
+}
+
+/* FOOTER --------------------------------------------------- */
+
+footer{
+    background-color: #F2F2F2;
+    border-right: 0.5px solid rgba(0,0,0,0.3);
+    border-left: 0.5px solid rgba(0,0,0,0.3);
+    border-bottom: 0.5px solid rgba(0,0,0,0.3);
+    max-width: 940px;
+    padding: 0em 3.40425532%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 5em;
+    margin-bottom: 1em;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1.3em;
+}
+
+footer .infos{
+    margin-left: 3.3em;
+    margin-top: 4em;
+}
+
+.propos, .reseaux, .access{
+    margin-top: 4em;
+}
+
+.infos ul li a, .propos ul li a, .reseaux ul li a{
+    //text-decoration: none;
+    color: rgb(69,176,245);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.infos ul li, .propos ul li, .reseaux ul li{
+    margin: 1em 0em;
+}
+
+.fa-facebook-square, .fa-linkedin-square, .fa-instagram{
+    color:#0071A0;
+    font-size: 16px;
+    margin-right: 0.2em;
+}
+
+.logos{
+    display: none;
+}
+
+.access li:first-child{
+    border-radius: 8px 8px 8px 8px; 
+    width: 120px;
+    color: white;
+    background-color: #333333;
+    font-family: helvetica;
+    padding: 0.5em;
+    margin:0 auto;
+    line-height: 1.2;
+}
+
+.access li span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.access li:last-child{
+    background-color: #fff;
+    border :0.5px solid rgba(0,0,0,0.3);
+    color: black;
+    margin-top: 1em;
+    padding:0.5em;
+    width: 120px;
+    font-family: helvetica;
+}
+
+.access li i{
+    color: white;
+    font-size: 30px;
+}
+
+.copyright p{
+    position: absolute;
+    bottom: 15px;
+    left: 33px;
+    font-size: 11px;
+    color: #333333;
+}
+
+/*footer{
+    border-bottom: 50px solid #ddd;
+}*/
+
+/*MEDIAQUERY ------------------------------------ */
+
+@media(max-width:850px){
+     footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .reseaux .none{
+        display: none;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .flex ul{
+        margin: 0 auto;
+        display: flex;
+    }
+    footer .infos{
+        margin-left: initial;
+    }
+    .infos a{
+        display: none;
+    }
+    .infos .logos{
+        display: inline-block;
+        margin: 0 0.5em;
+    }
+
+    .infos .logos img{
+        border-radius:10px;
+    }
+
+    .infos ul{
+       flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex h1{
+        text-align: center;
+    }
+    .propos a{
+        margin: 0 1em;
+    }
+    .reseaux i{
+        font-size: 3em;
+        margin: 0 0.2em;
+    }
+    .access li:last-child{
+        margin: 1.5em auto;
+    }
+    .copyright p{
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media(max-width:790px){
+    .hidemobile{
+        display: none;
+    }
+    .rechercher, .send{
+        border-radius:50%;
+        width: 50px;
+        height: 50px;
+    }
+    .rechercher i,.send i{
+      position: relative;
+        top:4px;
+        right: -2px;
+    }
+}
+@media(max-width:700px){
+    button{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    nav ul{
+         display: flex;
+         flex-direction: column;
+    }
+    nav li{
+        margin: .8em 0;
+        border-bottom: 1px solid rgb(230,230,230);
+        text-align: center;
+        padding-bottom: 1.5em;
+    }
+    nav li:last-child{
+        border:none;
+        padding:initial;
+    }
+    nav li a{
+        font-size:1em;
+    }
+    nav li a:hover, a[data-active="true"]{
+        color: rgb(112,140,145);
+        border: none;
+        transform: scale(1.1);
+        background-color: initial;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-top:none;
+        border-radius: none;
+        border-color: none;
+    }
+    [target="true"]+ul{
+        border:0.5px solid rgb(210,210,210);
+    }
+    .contenu{
+        display: block;
+    }
+    .aside{
+        width:initial;
+    }
+    .etudes h2, .Stages h2, .Jobs h2{
+        margin-left: initial;
+    }
+    
+    .etudes ul li, .Stages ul li, .Jobs ul li{
+        margin-left: initial;
+    }
+    .mail{
+        padding-left:initial;
+    }
+    
+}
+@media(max-width:670px){
+    .stages p{
+        word-break: break-word;
+    }
+}
+    
+@media(max-width:626px){
+    .propos ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    
+@media(max-width:550px){
+    .profil{
+       display: none; 
+    }
+    .rechercher{
+       margin-left: 2em; 
+    }
+    .logo{
+        font-size: 1.3em;
+    }
+    .contact{
+        //width: 93.7%;
+        padding-bottom:7em;
+    }
+    .download{
+        padding-left:1.5em;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 160px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .title a{
+        margin-left:4em;
+    }
+    .contact ul{
+        position: static;
+    }
+    .title{
+        display: block;
+    }
+    
+    .fa-long-arrow-right{
+       display: none; 
+    }
+    .title{
+        margin: 0auto;
+    }
+    .contact ul{
+        text-align: center;
+        margin-top: .5em;
+    }
+    .download{
+        display: block;
+        margin-top:.5em; 
+    }
+    .title img{
+        margin-top: .5em;
+    }
+}
+
+@media(max-width:400px){
+    .imgprofil{
+        display: none;
+    }
+    .logo{
+        font-size:1em;
+    }
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.change{
+    display:block;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
