@@ -1,395 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src="./js/font-awesome.js"></script>
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/x-icon" href="./img/quote.png">
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Charlotte Toussaint's resumé</title>
+	<meta name="description" content="Resumé of Charlotte Toussaint. Webdesigner woman located in Luxembourg.">
+	<meta name="keywords" content="Webdesigner, resumé, resumé online, blablacv">
 	<meta name="viewport" content="width=device-width initial-scale=1">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
 	<div class="page">
-		<header>
-			<h1> Charlotte Toussaint's resumé </h1>
-			<div class="research">
-				<ul>
-					<li>
-						<a href="#" class="logo">
-							<img src="./img/quote.png" alt="Blablacv" width="644" height="563">
+		<header class="header">
+			<h1 class="header__title1"> Charlotte Toussaint's resumé </h1>
+			<div class="header__div">
+				<ul class="list list--info">
+					<li class="list__item item--logo">
+						<a href="#" class="logo" title="Go to the main page">
+							<img src="./img/quote.png" alt="Blablacv" width="300" height="262" class="logo__img">
 							BlaBlaCv
 						</a>
                     </li>
-					<li class="rechercher">
-						<a href="#" class="showmobile"><i class="fa fa-search" aria-hidden="true"></i></a>
-						<a href="#" class="hidemobile">Rechercher</a>
+					<li class="list__item item--research">
+						<a href="#" class="list__link link--search" title="Make a seach">
+							<i class="fa fa-search" aria-hidden="true"></i>
+							<p class="list__text">Search</p>
+						</a>
 						<!-- <input type="search" name="rechercher" placeholder="Rechercher">
 						<input type="submit" name="Envoyé"> -->
 					</li>
-					<li class="send">
-						<a href="mailto:charlotte_toussaint@hotmail.com" class="showmobile"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                        <a href="mailto:charlotte_toussaint@hotmail.com" class="hidemobile">Send me an email</a>
+					<li class="list__item item--send">
+                        <a href="mailto:charlotte_toussaint@hotmail.com" class="list__link link--send" title="Send an emain to Charlotte Toussaint">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<p class="list__text">Send me an email</p>
+						</a>
 					</li>
-					<li>
-						<a href="#" class="profil"> Charlotte T</a>
-						<a href="#" class="imgprofil"> <img src="./img/photodeprofil.png" alt="Photo de Charlotte Toussaint"></a>
-						<button>
+					<li class="list__item item--avatar">
+						<a href="#" class="list__link link--profil" title="Charlotte Toussaint's résumé"> Charlotte</a>
+						<a href="#" class="list__link link--img" title="Charlotte's Toussaint's résumé">
+							<img src="./img/photodeprofil.png" alt="Charlotte Toussaint" class="link__img avatar--img">
+						</a>
+						<button class="header__button">
 						</button>
 					</li>
 				</ul>
 			</div>
 		</header>
 		<div class="container">
-			<nav>
-				<h2> navigation principale </h2>
-				<ul>
-					<li>
-						<a href="#contact" data-active>
+			<nav class="nav">
+				<h2 class="nav__title1"> Principale navigation </h2>
+				<ul class="list list--nav">
+					<li class="list__item item--nav">
+						<a href="#contact" data-active class="list__link link--nav" title="Go to the 'Contact' section">
 							Contact
 						</a>
 					</li>
-					<li>
-						<a href="#log" data-active>
+					<li class="list__item item--nav">
+						<a href="#log" data-active class="list__link link--nav" title="Go to the 'Software' section">
 							Software
 						</a>
 					</li>
-					<li>
-						<a href="#skills" data-active>
+					<li class="list__item item--nav">
+						<a href="#skills" data-active class="list__link link--nav">
 							Skills
 						</a>
 					</li>
-					<li>
-						<a href="#school" data-active>
+					<li class="list__item item--nav">
+						<a href="#school" data-active class="list__link link--nav" title="Go to the 'Studies' section">
 							Studies
 						</a>
 					</li>
-					<li>
-						<a href="#stage" data-active>
-							Interships
+					<li class="list__item item--nav">
+						<a href="#stage" data-active class="list__link link--nav" title="Go to the 'Internship' section">
+							Internships
 						</a>
 					</li>
-					<li>
-						<a href="#job" data-active>
+					<li class="list__item item--nav">
+						<a href="#job" data-active class="list__link link--nav" title="Go to the 'Student's job' section">
 							Student's jobs
 						</a>
 						<!-- Voir pour faire des targets-->
 					</li>
 				</ul>
 			</nav>
-			<section>
-				<div class="contact">
-					<div class="title">
-						<h2 class="titre">
-							Charlotte Toussaint
-						</h2>
-						<a href="#">
-							<img src="./img/photodeprofil.png" alt="photo de Charlotte Toussaint">
-						</a>
-					</div>
-					<ul>
-					    <li class="wb">
-							<i aria-hidden="true"></i>
-							WEBDESIGNER
-						</li>
-						<li class="visit">
-							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-							<a href="#">Visit my website</a>
-						</li>
-						<li class="recommand">
-							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-							Recommand my resumé
-							<a href="cv_charlotte_toussaint.pdf"class="download">download</a>
-						</li>
-						
-					</ul>
-				</div>
-				<div class="contenu">
-					<div class="aside">
-						<h2 id="contact">
-							Contact information
-						</h2>
-						<ul class="coordonnes">
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								23 years old
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								14, rue Emile Weber
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Luxemburger
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								license
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								0491 313 576
-				            </li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-                                <a href="charlotte_toussaint@hotmail.com">charlotte_toussaint<span class=mail><wbr>@hotmail.com</span></a>
-							</li>
-						</ul>
-						<h2 id="log">
-							Software
-						</h2>
-						<ul class="software" >
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								MS Office
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Adobe
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Maya
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Php Storm
-							</li>
-						</ul>
-						<h2 id="skills">
-							Skills
-						</h2>
-						<ul class="competences">
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								French : mother tongue
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								English : intermediat
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Curious
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Dynamic
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Proactive
-							</li>
-							<li>
-								<i class="fa fa-check-circle-o" aria-hidden="true"></i>
-								Good listening skills
-							</li>
-						</ul>
-					</div>
-					<div class="centre">
-						<div class="etudes">
-							<h2 id="school">
-								 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								Studies
+			<main>
+				<h1>
+					Path and skills of Charlotte Toussaint
+				</h1>
+				<section>
+					<div class="contact">
+						<div class="contact__div">
+							<h2 class="contact__title1">
+								Charlotte Toussaint
 							</h2>
-							<ul>
-								<li>
-                                    <span>HEPL Seraing 2016-2019</span> Computer Graphics Bachelor (on going)
+							<a href="" class="contact__link" title="Go to the Charlotte Toussaint's résumé">
+								<img src="./img/photodeprofil.png" alt="Charlotte Toussaint" class="contact__img">
+							</a>
+						</div>
+						<ul class="list list--contact">
+							<li class="list__item item--info item--job">
+								<i aria-hidden="true"></i>
+								WEBDESIGNER
+							</li>
+							<li class="list__item item--info item--site">
+								<i class="fas fa-long-arrow-alt-right"></i>
+								<a href="#" class="list__link link--site" title="Go to wisit the portfolio of Charlotte Toussaint">Visit my website</a>
+							</li>
+							<li class="list__item item--info item--cv">
+								<i class="fas fa-long-arrow-alt-right"></i>
+								Recommand my resumé
+								<a href="cv_charlotte_toussaint.pdf" class="list__link link--download" title="Download the résumé of Charlotte Toussaint">Download</a>
+							</li>
+						</ul>
+					</div>
+					<div class="contenu">
+						<div class="contenu__aside">
+							<h2 class="aside__title1">
+								Preferences
+							</h2>
+							<ul class="list list--preference">
+								<li class="list__item item--preference">
+									<i class="far fa-lightbulb"></i>
+									<p>
+										Imagine
+									</p>
 								</li>
-								<li>
-                                    <span>HEPL Jemeppe 2013-2016</span> Communication Bachelor (completed)
+								<li class="list__item item--preference">
+									<i class="fas fa-pencil-alt"></i>
+									<p>
+										Design
+									</p>
+								</li>
+								<li class="list__item item--preference">
+									<i class="fas fa-laptop"></i>
+									<p>
+										Website
+									</p>
 								</li>
 							</ul>
-						</div>
-						<div class="Stages">
-							<h2 id="stage">
-								<i class="fa fa-handshake-o" aria-hidden="true"></i>
-								Internships
+							<h2 class="aside__title2" id="contact">
+								Contact information
 							</h2>
-							<ul>
-								<li>
-                                    <span>Les Ardentes Liège 2016</span> Event planning, Community manager, sponsoring, web marketing
+							<ul class="list list--cordonnees">
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									23 years old
 								</li>
-								<li>
-                                    <span>HEC Liège 2015</span> Event planning, community manager
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									14, rue Emile Weber
 								</li>
-								<li>
-                                    <span>Libellula Liège 2014</span> Event planning, Cake design
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									Luxemburger
 								</li>
-								<li>
-                                    <span>La Meuse Arlon 2013</span> Writing general papers
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									license
 								</li>
-								<li>
-                                    <span>La Vierge des Pauvres Banneux 2013</span> Care of elderly people
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									0491 313 576
 								</li>
-								<li>
-                                    <span>Le Clae Luxembourg 2012</span> Assistant for foreigners work permit request
+								<li class="list__item item--coordonnees">
+									<i class="far fa-check-circle"></i>
+									<a href="charlotte_toussaint@hotmail.com" class="list__link link--mail" title="Send an email to Charlotte Toussaint">charlotte_toussaint<span class=span--mail><wbr>@hotmail.com</span></a>
+								</li>
+							</ul>
+							<h2 class="aside__title3" id="log">
+								Software
+							</h2>
+							<ul class="list list--logiciels">
+								<li class="list__item item--logociels">
+									<i class="far fa-check-circle"></i>
+									MS Office
+								</li>
+								<li class="list__item item--logociels">
+									<i class="far fa-check-circle"></i>
+									Adobe
+								</li>
+								<li class="list__item item--logociels">
+									<i class="far fa-check-circle"></i>
+									Maya
+								</li>
+								<li class="list__item item--logociels">
+									<i class="fas fa-exclamation-circle"></i>
+									<span class="skills__color">Improve Maya skills</span>
+								</li>
+								<li class="list__item item--logociels">
+									<i class="far fa-check-circle"></i>
+									PhpStorm
+								</li>
 
+							</ul>
+							<h2 class="aside__title4" id="skills">
+								Skills
+							</h2>
+							<ul class="list list--competences">
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									French : mother tongue
+								</li>
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									English : intermediat
+								</li>
+								<li class="list__item item--competences">
+									<i class="fas fa-exclamation-circle"></i>
+									<span class="skills__color">Improve english skills</span>
+								</li>
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									Curious
+								</li>
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									Dynamic
+								</li>
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									Proactive
+								</li>
+								<li class="list__item item--competences">
+									<i class="far fa-check-circle"></i>
+									Good listening skills
 								</li>
 							</ul>
 						</div>
-						<div class="Jobs">
-							<h2 id="job">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-								Jobs d'étudiant
-							</h2>
-							<ul>
-								<li>
-									    <span>Carrefour Arlon 2017</span> Restocking and cashier
-								</li>
-								<li>
-									    <span>Camping Arlon 2017</span> Waitress
-								</li>
-								<li>
-                                    <span>Pimkie Luxembourg 2011-2017</span> Restocking, cashier
-								</li>
-								<li>
-                                    <span>KBL Luxembourg 2013</span> Archiving
-								</li>
-								<li>
-                                    <span>Casa Luxembourg 2010-2012</span> Restocking, cashier
-								</li>
-							</ul>
+						<div class="contenu__centre">
+							<div class="contenu__etudes">
+								<h2 class="centre__title1" id="school">
+									 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+									Studies
+								</h2>
+								<ul class="list list--etudes">
+									<li class="list__item item--etudes">
+										<span class="etudes__span">HEPL Seraing 2016-2019</span> Computer Graphics Bachelor (on going)
+									</li>
+									<li class="list__item item--etudes">
+										<span class="etudes__span">HEPL Jemeppe 2013-2016</span> Communication Bachelor (completed)
+									</li>
+								</ul>
+							</div>
+							<div class="contenu__stages">
+								<h2 class="centre__title2" id="stage">
+									<i class="fas fa-handshake"></i>
+									Internships
+								</h2>
+								<ul class="list list--stages">
+									<li class="list__item item--stages">
+										<span class="stages__span">Les Ardentes Liège 2016</span>
+										<p class="stages__text">
+											Event planning, Community manager, sponsoring, web marketing
+										</p>
+									</li>
+									<li class="list__item item--stages">
+										<span class="stages__span">HEC Liège 2015</span> Event planning, community manager
+									</li>
+									<li class="list__item item--stages">
+										<span class="stages__span">Libellula Liège 2014</span> Event planning, Cake design
+									</li>
+									<li class="list__item item--stages">
+										<span class="stages__span">La Meuse Arlon 2013</span> Writing general papers
+									</li>
+									<li class="list__item item--stages">
+										<span class="stages__span">La Vierge des Pauvres Banneux 2013</span> Care of elderly people
+									</li>
+									<li class="list__item item--stages">
+										<span class="stages__span">Le Clae Luxembourg 2012</span> Assistant for foreigners work permit request
+									</li>
+								</ul>
+							</div>
+							<div class="contenu__jobs">
+								<h2 class="centre__title3" id="job">
+									<i class="fa fa-briefcase" aria-hidden="true"></i>
+									Jobs d'étudiant
+								</h2>
+								<ul class="list list--jobs">
+									<li class="list__item item--jobs">
+											<span class="jobs__span">Carrefour Arlon 2017</span> Restocking and cashier
+									</li>
+									<li class="list__item item--jobs">
+											<span class="jobs__span">Camping Arlon 2017</span> Waitress
+									</li>
+									<li class="list__item item--jobs">
+										<span class="jobs__span">Pimkie Luxembourg 2011-2017</span> Restocking, cashier
+									</li>
+									<li class="list__item item--jobs">
+										<span class="jobs__span">KBL Luxembourg 2013</span> Archiving
+									</li>
+									<li class="list__item item--jobs">
+										<span class="jobs__span">Casa Luxembourg 2010-2012</span> Restocking, cashier
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</main>
+		</div>
+		<div itemscope itemtype="http://schema.org/Person">
+			<meta itemprop="familyName" content="Charlotte Toussaint">
+			<meta itemprop="jobTitle" content="Webdesigner">
+			<meta itemprop="email" content="charlotte_toussaint@hotmail.com">
+			<meta itemprop="telephone" content="0032/(0)491/313.576">
+			<meta itemprop="birthDate" content="16/07/1994">
+			<meta itemprop="birthPlace" content="Luxembourg">
+		</div>
+		<div itemscope itemtype="http://schema.org/PostalAddress">
+			<meta itemprop="addressLocality" content="Luxembourg">
 		</div>
 	</div>
-	<footer>
-		<div class="infos flex">
-			<h1>
+	<footer class="footer">
+		<div class="footer__info footer--flex">
+			<h1 class="footer__title1">
 				Practical information
 			</h1>
-			<ul>
-				<li>
-					<a href="http://www.provincedeliege.be/hauteecole">HEPL Technical College
-					</a>
-					<a href="http://www.provincedeliege.be/hauteecole" class="logos">
-					   <img src="Logos/Logo8.jpg" alt="Haute Ecole de la Province de Liège">
+			<ul class="list list--footer list--works">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.provincedeliege.be/hauteecole" class="list__link link--footer link--works link--hepl" title="Visit the website">
+						HEPL Technical College
 					</a>
 				</li>
-				<li>
-					<a href="http://lesardentes.be/festival/fr">Les Ardentes</a>
-					<a href="http://lesardentes.be/festival/fr" class="logos">
-					   <img src="Logos/Logo3.jpg" alt="Les Ardentes">
+				<li class="list__item item--footer item-works">
+					<a href="http://lesardentes.be/festival/fr" class="list__link link--footer link--works link--ardentes" title="Visit the website">
+						Les Ardentes
 					</a>
 				</li>
-				<li>
-					<a href="http://www.hec.ulg.ac.be/fr/accueil">Haute Ecole de Commerce (HEC)</a>
-					<a href="http://www.hec.ulg.ac.be/fr/accueil" class="logos">
-					   <img src="Logos/Logo2.jpg" alt="Haute Ecole de commerces">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.hec.ulg.ac.be/fr/accueil" class="list__link link--footer link--works link--hec" title="Visit the website">
+						Haute Ecole de Commerce (HEC)
 					</a>
 				</li>
-				<li>
-					<a href="http://www.libellula.be/">Libellula</a>
-					<a href="http://www.libellula.be/" class="logos">
-					   <img src="Logos/Logo11.jpg" alt="Libellula">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.libellula.be/" class="list__link link--footer link--works link--libellula" title="Visit the website">
+						Libellula
 					</a>
 				</li>
-				<li>
-					<a href="http://www.lameuse.be/">La Meuse</a>
-					<a href="http://www.lameuse.be/" class="logos">
-					   <img src="Logos/Logo1.jpg" alt="La Meuse journal">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.lameuse.be/" class="list__link link--footer link--works link--meuse" title="Visit the website">
+						La Meuse
 					</a>
 				</li>
-				<li>
-					<a href="http://www.chc.be/Reseau-senior/Les-etablissements/Residence-La-Vierge-des-Pauvres-%28Banneux%29.aspx">La Vierge des pauvres</a>
-					<a href="http://www.chc.be/Reseau-senior/Les-etablissements/Residence-La-Vierge-des-Pauvres-%28Banneux%29.aspx" class="logos">
-					   <img src="Logos/Logo6.jpg" alt="La vierge des pauvres">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.chc.be/Reseau-senior/Les-etablissements/Residence-La-Vierge-des-Pauvres-%28Banneux%29.aspx" class="list__link link--footer link--works link--pauvre" title="Visit the website">
+						La Vierge des pauvres
 					</a>
 				</li>
-				<li>
-					<a href="https://www.clae.lu/">Le Clae</a>
-					<a href="https://www.clae.lu/" class="logos">
-					   <img src="Logos/Logo7.jpg" alt="Le Clae">
+				<li class="list__item item--footer item-works">
+					<a href="https://www.clae.lu/" class="list__link link--footer link--works link--clae" title="Visit the website">
+					   Le Clae
 					</a>
 				</li>
-				<li>
-					<a href="http://www.carrefour.com/">Carrefour</a>
-					<a href="http://www.carrefour.com/" class="logos">
-					   <img src="Logos/Logo4.jpg" alt="Carrefour">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.carrefour.com/" class="list__link link--footer link--works link--carrefour" title="Visit the website">
+						Carrefour
 					</a>
 				</li>
-				<li>
-					<a href="http://www.campingofficielarlon.be/">Camping Officiel Arlon</a>
-					<a href="http://www.campingofficielarlon.be/" class="logos">
-					   <img src="Logos/Logo12.jpg" alt="Camping Officiel d'Arlon">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.campingofficielarlon.be/" class="list__link link--footer link--works link--camping" title="Visit the website">
+						Camping Officiel Arlon
 					</a>
 				</li>
-				<li>
-					<a href="http://www.pimkie.fr/">Pimkie</a>
-					<a href="http://www.pimkie.fr/" class="logos">
-					   <img src="Logos/Logo10.jpg" alt="Pimkie">
+				<li class="list__item item--footer item-works">
+					<a href="http://www.pimkie.fr/" class="list__link link--footer link--works link--pimkie" title="Visit the website">
+						Pimkie
 					</a>
 				</li>
-				<li>
-					<a href="https://www.kbl.lu/fr/">Kredit Bank Luxembourg</a>
-					<a href="https://www.kbl.lu/fr/" class="logos">
-					   <img src="Logos/Logo5.jpg" alt="KredietBank Luxembourg">
+				<li class="list__item item--footer item-works">
+					<a href="https://www.kbl.lu/fr/" class="list__link link--footer link--works link--kbl" title="Visit the website">
+						Kredit Bank Luxembourg
 					</a>
 				</li>
-				<li>
-					<a href="https://www.casashops.com/">Casa</a>
-					<a href="https://www.casashops.com/" class="logos">
-					   <img src="Logos/Logo9.jpg" alt="Casa">
+				<li class="list__item item--footer item-works">
+					<a href="https://www.casashops.com/" class="list__link link--footer link--works link--casa" title="Visit the website">
+						Casa
 					</a>
 				</li>
 			</ul>
 		</div>
-		<div class="propos flex">
-			<h1>
+		<div class="footer__propos footer--flex">
+			<h1 class="footer__title2">
 				About
 			</h1>
-			<ul>
-				<li>
-					<a href="#">Who am i&nbsp;?</a>
+			<ul class="list list--footer list--questions">
+				<li class="list__item item--footer item-questions">
+					<a href="https://www.hepl01.cblue.be/~user124/dw/portefolio" class="list__link link--footer link--questions" title="Visit my portefolio">Who am i</a>
 				</li>
-				<li>
-					<a href="#">BlablaQuestions</a>
+				<li class="list__item item--footer item-questions">
+					<a href="#" class="list__link link--footer link--questions" title="Ask me a question">BlablaQuestions</a>
 				</li>
-				<li>
-					<a href="#">Hire me</a>
+				<li class="list__item item--footer item-questions">
+					<a href="#" class="list__link link--footer link--questions" title="Send me a message">Hire me</a>
 				</li>
-				<li>
-					<a href="#">Some improvements&nbsp;?</a>
+				<li class="list__item item--footer item-questions">
+					<a href="#" class="list__link link--footer link--questions" title="Tell me your opinion">Some improvements</a>
 				</li>
 			</ul>
 		</div>
-		<div class="reseaux flex">
-			<h1>
+		<div class="footer__reseaux footer--flex">
+			<h1 class="footer__title3">
 				Social network
 			</h1>
-			<ul>
-				<li>
-					<a href="https://www.facebook.com/charlotte.toussaint"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-					<a href="https://www.facebook.com/charlotte.toussaint" class="none">
-					Facebook
+			<ul class="list list--footer list--network">
+				<li class="list__item item--footer item-network">
+					<a href="https://www.facebook.com/charlotte.toussaint" class="list__link link--footer link--network" title="Charlotte Toussaint's facebook account">
+						<span class="hidden">Le compte facebook de Charlotte Toussaint</span>
+						<i class="fab fa-facebook-square"></i>
+						<p class="network--text">Facebook</p>
 					</a>
 				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/charlotte-toussaint-1b8572a9/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-					<a href="https://www.linkedin.com/in/charlotte-toussaint-1b8572a9/" class="none">LinkedIn</a>
+				<li class="list__item item--footer item-network">
+					<a href="https://www.linkedin.com/in/charlotte-toussaint-1b8572a9/" class="list__link link--footer link--network" title="Charlotte Toussaint's LinkedIn account">
+						<span class="hidden">Le compte linkedIn de Charlotte Toussaint</span>
+						<i class="fab fa-linkedin"></i>
+						<p class="network--text">LinkedIn</p>
+					</a>
 				</li>
-				<li>
-					<a href="https://www.instagram.com/chat_mallo/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-					<a href="https://www.instagram.com/chat_mallo/" class="none">Instagram</a>
+				<li class="list__item item--footer item-network">
+					<a href="https://www.instagram.com/chat_mallo/" class="list__link link--footer link--network" title="Charlotte Toussaint's instagram account">
+						<span class="hidden">Le compte instagram de Charlotte Toussaint</span>
+						<i class="fab fa-instagram"></i>
+						<p class="network--text">Instagram</p>
+					</a>
 				</li>
 			</ul>
 		</div>
-		<div class="access">
-			<ul>
-				<li>
+		<div class="footer__access footer--flex">
+			<ul class="list list--access">
+				<li class="list__item item-access">
 					<i class="fa fa-desktop" aria-hidden="true"></i>
-					I am <span>responsive</span>
+					I am <span class="span--access">responsive</span>
 				</li>
-				<li>
+				<li class="list__item item--footer item-access item--lang">
 					Language : english
 				</li>
 			</ul>
 		</div>
-		<div class="copyright">
-			<p>
+		<div class="footer__copyright">
+			<p class="copyright--text">
 				BlablaCv, 2017 © 
 			</p>
 		</div>

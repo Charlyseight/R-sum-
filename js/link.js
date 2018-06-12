@@ -12,6 +12,6 @@ $('a[href^="#"]').click(function(){
 
 $(document).ready(function(){
     $("button").on("click",function(){
-     $("nav").toggleClass("change").slideToggle();
+     $("nav").toggleClass("change").slideToggle("slow");
     });
 });
